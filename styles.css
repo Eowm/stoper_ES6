@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.button{
+	text-decoration: none;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	margin: 0px;
+	background-color: #4B97FF;
+	border: none;
+}
+
+.container {
+	background-color: #0315C9;
+	max-width: 500px;
+}
+
+.stopwatch {
+	margin: 30px 0;
+	font-size: 30px;
+}
+
+li {
+	list-style-type: none;
+}
